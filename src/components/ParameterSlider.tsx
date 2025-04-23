@@ -18,6 +18,7 @@ type Props = {
   step?: number;
   value: number;
   onChange: (v: number) => void;
+  width?: number | string;   // 追加: 幅を受け取れるように
 };
 
 export const ParameterSlider: React.FC<Props> = ({
@@ -27,15 +28,16 @@ export const ParameterSlider: React.FC<Props> = ({
   step = 1,
   value,
   onChange,
+  width = 600,              // デフォルト幅 300px
 }) => {
   const theme = useTheme();
-
   const decrement = () => onChange(Math.max(min, value - step));
   const increment = () => onChange(Math.min(max, value + step));
 
   return (
     <Box
       sx={{
+        width,                  // ここで幅を指定
         p: 2,
         mb: 2,
         bgcolor: theme.palette.background.paper,
@@ -67,15 +69,12 @@ export const ParameterSlider: React.FC<Props> = ({
         />
       </Box>
 
-      {/* コントロール（− ボタン, スライダー, + ボタン） */}
+      {/* コントロール */}
       <Box sx={{ display: 'flex', alignItems: 'center' }}>
         <IconButton
           onClick={decrement}
           disabled={value <= min}
-          sx={{
-            border: `1px solid ${theme.palette.divider}`,
-            mr: 1,
-          }}
+          sx={{ border: `1px solid ${theme.palette.divider}`, mr: 1 }}
           size="small"
         >
           <RemoveIcon fontSize="small" />
@@ -104,10 +103,7 @@ export const ParameterSlider: React.FC<Props> = ({
         <IconButton
           onClick={increment}
           disabled={value >= max}
-          sx={{
-            border: `1px solid ${theme.palette.divider}`,
-            ml: 1,
-          }}
+          sx={{ border: `1px solid ${theme.palette.divider}`, ml: 1 }}
           size="small"
         >
           <AddIcon fontSize="small" />
