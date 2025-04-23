@@ -33,3 +33,40 @@ Start the local development server with hot reload:
 ```bash
 npm run dev
 # Open http://localhost:3000 in your browser
+
+To run on a specific port (e.g. 4000):
+```bash
+npm run dev -- --port 4000
+
+## Production Build & Preview
+```bash
+npm run build
+npm run preview
+# Preview at http://localhost:4173
+
+## Project Structure
+```csharp
+ChiptuneMaker/
+├── public/              # Static assets (logo, sample audio)
+│   └── assets/
+├── src/
+│   ├── components/      # Reusable React components
+│   │   ├── FileUploader.tsx
+│   │   ├── ParameterSlider.tsx
+│   │   ├── ProgressBar.tsx
+│   │   └── AudioPlayer.tsx
+│   ├── hooks/           # Custom React hooks
+│   │   └── useAudioProcessor.ts
+│   ├── utils/           # Helper functions (WAV encoder, download)
+│   ├── App.tsx          # Main app component
+│   └── main.tsx         # App entry point
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+
+## License
+This project is released under the MIT License.
+
+© 2025 Shoki Mitsui
+
+
