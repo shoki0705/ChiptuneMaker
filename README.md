@@ -9,12 +9,16 @@ This service is mainly realized using the following technologies:
 
 
 ## Features
-- Audio Upload: Drag & drop or select WAV/MP3 files directly in the browser.
-- Bit Depth Control: Choose bit depths between 1 and 16 bits for classic quantization noise.
-- Sample Rate Adjustment: Set target rates from 1,000 to 44,100 Hz to introduce aliasing artifacts.
-- Real‑Time Preview: Hear changes instantly as you tweak parameters.
-- Progress Indicator: A progress bar shows conversion status for larger file.
-- Custom Filename: Specify a custom filename before downloading your chiptune.
+- `Audio Upload`: Drag & drop or select WAV/MP3 files directly in the browser.
+- `Bit Depth Control`: Choose bit depths between 1 and 16 bits for classic quantization noise.
+- `Sample Rate Adjustment`: Set target rates from 1,000 to 44,100 Hz to introduce aliasing artifacts.
+- `Real‑Time Preview`: Hear changes instantly as you tweak parameters.
+- `Progress Indicator`: A progress bar shows conversion status for larger file.
+- `Custom Filename`: Specify a custom filename before downloading your chiptune.
 
 ## set up
-
+```shell:
+  # Clone the repository
+git clone https://github.com/shoki0705/ChiptuneMaker.git
+cd ChiptuneMaker
+```
