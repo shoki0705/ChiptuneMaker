@@ -17,8 +17,8 @@ This service is mainly realized using the following technologies:
 - `Custom Filename`: Specify a custom filename before downloading your chiptune.
 
 ## set up
+### Clone the repository
 ```shell:
-  # Clone the repository
 git clone https://github.com/shoki0705/ChiptuneMaker.git
 cd ChiptuneMaker
 ```
