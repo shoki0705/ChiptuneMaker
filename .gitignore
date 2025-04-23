@@ -1,0 +1,50 @@
+# Node モジュール
+node_modules/
+
+# ビルド成果物
+dist/
+build/
+
+# ログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 環境変数ファイル
+.env
+.env.*.local
+.vscode/settings.json
+
+# OS 固有ファイル
+.DS_Store
+Thumbs.db
+
+# エディタ／IDE 固有ファイル
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# テストカバレッジ
+coverage/
+
+# キャッシュ
+.cache/
+*.tmp
+*.temp
+
+# ローカルの ESLint/Prettier 一時ファイル
+.eslintcache
+.prettiercache
+
+# 生成される型定義 (必要なら外す)
+# src/**/*.d.ts
+
+# Storybook 関連
+.out/
+storybook-static/
+
+# その他の一時ファイル
+*.log
