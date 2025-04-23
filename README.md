@@ -1,6 +1,6 @@
 # ChiptuneMaker
 `ChiptuneMaker` is a single-page application built with Vite, React, and TypeScript. It lets you upload any audio file in the browser, apply a retro “chiptune” style bit-crush and sample-rate conversion, preview the result in real time, and download the processed track as a WAV file.
-This service is mainly realized using the following technologies:
+This service is realized mainly using the following technologies:
 
 <img src="https://img.shields.io/badge/-TypeScript-007ACC.svg?logo=typescript&style=flat">
 <img src="https://img.shields.io/badge/-Node.js-555.svg?logo=nodedotjs&style=flat">
