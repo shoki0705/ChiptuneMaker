@@ -3,8 +3,10 @@ Chiptune Maker is a single-page application built with Vite, React, and TypeScri
 This service is written in the following languages:
 
 ![https___img shields io_badge_-TypeScript-000000](https://github.com/user-attachments/assets/690cf2d5-bb08-46b7-98b5-04cd79b66071)
-![https___img shields io_badge_-Node js-000000 svg_logo=node](https://github.com/user-attachments/assets/5ff6a502-1729-440f-9faa-a6cbe518e194)
+![https___img shields io_badge_-Node js-5FA04E svg_logo=node](https://github.com/user-attachments/assets/5ff6a502-1729-440f-9faa-a6cbe518e194)
 ![https___img shields](https://github.com/user-attachments/assets/0d0d2559-843b-4fc1-aec3-6586499c08c2)
+
+
 
 
 ## Features
