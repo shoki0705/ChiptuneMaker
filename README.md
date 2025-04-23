@@ -33,16 +33,19 @@ Start the local development server with hot reload:
 ```bash
 npm run dev
 # Open http://localhost:3000 in your browser
+```
 
 To run on a specific port (e.g. 4000):
 ```bash
 npm run dev -- --port 4000
+```
 
 ## Production Build & Preview
 ```bash
 npm run build
 npm run preview
 # Preview at http://localhost:4173
+```
 
 ## Project Structure
 ```csharp
@@ -63,6 +66,7 @@ ChiptuneMaker/
 ├── package.json
 ├── tsconfig.json
 └── vite.config.ts
+```
 
 ## License
 This project is released under the MIT License.
