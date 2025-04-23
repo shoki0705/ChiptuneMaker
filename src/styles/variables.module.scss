@@ -1,0 +1,7 @@
+$primary-color: #3498db;
+$slider-thumb-size: 16px;
+
+:root {
+  --primary-color: #{$primary-color};
+  --thumb-size: #{$slider-thumb-size};
+}

@@ -1,0 +1,41 @@
+{
+    "name": "chiptunemaker",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@chakra-ui/icons": "^2.2.4",
+        "@chakra-ui/react": "^3.16.1",
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.0",
+        "@mui/icons-material": "^7.0.2",
+        "@mui/material": "^7.0.2",
+        "antd": "^5.24.8",
+        "bootstrap": "^5.3.5",
+        "framer-motion": "^12.7.4",
+        "react": "^18.3.1",
+        "react-bootstrap": "^2.10.9",
+        "react-dom": "^18.3.1",
+        "react-icons": "^5.5.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.20",
+        "@types/react-dom": "^18.3.6",
+        "@vitejs/plugin-react": "^3.1.0",
+        "autoprefixer": "^10.4.21",
+        "postcss": "^8.5.3",
+        "sass": "^1.87.0",
+        "tailwindcss": "^4.1.4",
+        "typescript": "^5.0.0",
+        "vite": "^4.0.0"
+    },
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
