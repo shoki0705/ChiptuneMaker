@@ -3,6 +3,7 @@
 This service is mainly realized using the following technologies:
 
 <img src="https://img.shields.io/badge/-TypeScript-007ACC.svg?logo=typescript&style=flat">
+<img src="https://img.shields.io/badge/-Node.js-555.svg?logo=nodedotjs&style=flat">
 <img src="https://img.shields.io/badge/-React-555.svg?logo=react&style=flat">
 <img src="https://img.shields.io/badge/-HTML5-333.svg?logo=html5&style=flat">
 
