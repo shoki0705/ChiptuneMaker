@@ -22,3 +22,7 @@ This service is mainly realized using the following technologies:
 git clone https://github.com/shoki0705/ChiptuneMaker.git
 cd ChiptuneMaker
 ```
+### Install dependancies
+```shell:
+npm install
+```
