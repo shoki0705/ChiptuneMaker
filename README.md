@@ -33,12 +33,12 @@ Start the local development server with hot reload:
 
 ```bash
 npm run dev
-# Open http://localhost:3000 in your browser
+# Open http://localhost:4000 in your browser
 ```
 
-To run on a specific port (e.g. 4000):
+To run on a specific port (e.g. 3000):
 ```bash
-npm run dev -- --port 4000
+npm run dev -- --port 3000
 ```
 
 ## Production Build & Preview
