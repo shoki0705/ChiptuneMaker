@@ -18,11 +18,18 @@ This service is mainly realized using the following technologies:
 
 ## set up
 ### Clone the repository
-```shell:
+```bash:
 git clone https://github.com/shoki0705/ChiptuneMaker.git
 cd ChiptuneMaker
 ```
 ### Install dependancies
-```shell:
+```bash:
 npm install
 ```
+## Development
+
+Start the local development server with hot reload:
+
+```bash
+npm run dev
+# Open http://localhost:3000 in your browser
