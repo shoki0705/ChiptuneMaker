@@ -1,7 +1,9 @@
-![https___img shields io_badge_-TypeScript-000000](https://github.com/user-attachments/assets/9740c374-3fb8-4c6f-a9d9-31f0443aa029)# ChiptuneMaker
+# ChiptuneMaker
 Chiptune Maker is a single-page application built with Vite, React, and TypeScript. It lets you upload any audio file in the browser, apply a retro “chiptune” style bit-crush and sample-rate conversion, preview the result in real time, and download the processed track as a WAV file.
 This service is written in the following languages:
-![Uploading https___img.shields.io_badge_-Type<?xml version="1.0" encoding="utf-8"?>
+
+![https___img shields io_badge_-TypeScript-000000](https://github.com/user-attachments/assets/690cf2d5-bb08-46b7-98b5-04cd79b66071)
+![Uploading https___<?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126.5" height="28" role="img" aria-label="TYPESCRIPT">
   <title>TYPESCRIPT</title>
   <g shape-rendering="crispEdges">
@@ -11,7 +13,8 @@ This service is written in the following languages:
     <image x="9" y="7" width="14" height="14"/>
     <text transform="scale(.1)" x="732.5" y="175" textLength="825" fill="#fff" font-weight="bold">TYPESCRIPT</text>
   </g>
-</svg>Script-000000.svg…]()
+</svg>img.shields.io_badge_-TypeScript-000000.svg…]()
+
 
 ## Features
 - Audio Upload: Drag & drop or select WAV/MP3 files directly in the browser.
