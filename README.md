@@ -3,17 +3,6 @@ Chiptune Maker is a single-page application built with Vite, React, and TypeScri
 This service is written in the following languages:
 
 ![https___img shields io_badge_-TypeScript-000000](https://github.com/user-attachments/assets/690cf2d5-bb08-46b7-98b5-04cd79b66071)
-![Uploading https___<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126.5" height="28" role="img" aria-label="TYPESCRIPT">
-  <title>TYPESCRIPT</title>
-  <g shape-rendering="crispEdges">
-    <rect width="126.5" height="28" fill="#000000"/>
-  </g>
-  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
-    <image x="9" y="7" width="14" height="14"/>
-    <text transform="scale(.1)" x="732.5" y="175" textLength="825" fill="#fff" font-weight="bold">TYPESCRIPT</text>
-  </g>
-</svg>img.shields.io_badge_-TypeScript-000000.svg…]()
 
 
 ## Features
