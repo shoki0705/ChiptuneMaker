@@ -25,7 +25,7 @@ export const AudioPlayer: React.FC<Props> = ({ url, loading }) => {
         display: 'flex',
         flexDirection: 'column',
         gap: 2,
-      }}
+        width: 600,      }}
     >
       {!url && !loading && (
         <Typography variant="body2" color="text.secondary" align="center">
